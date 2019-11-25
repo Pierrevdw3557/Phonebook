@@ -1,0 +1,42 @@
+﻿@model IEnumerable<UnitOfWork._Models.PhoneBookModel>
+@{
+    ViewBag.Title = "Phone books";
+}
+<div class="ibox">
+    <div class="ibox-content">
+            <div class="clearfix">
+                <a href="#" class="add_new_phone_book pull-right"><i class="fa fa-plus-circle"> Add new phonebook </i></a>
+                <table class="table w100 phone_book_table">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Name)</th>
+                            <th>No. of Entries</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><span class="name" data-phonebookid=@item.PhoneBookId>@item.Name</span></td>
+                                <td>@(item.Entries?.Count)</td>
+                                <td>
+                                    <div class="pull-right">
+                                        <a href="/ShowEntry/Index?phonebookId=@item.PhoneBookId" title="View" data-phonebookid=@item.PhoneBookId><i class="fa fa-eye"></i> View</a>
+                                        <a href="#" class="delete_phone_book" title="Delete" data-phonebookid=@item.PhoneBookId><i class="fa fa-trash-o"></i> Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/Plugins/dataTables/datatables.min.js"></script>
+    <script src="~/Scripts/bootstrap-editable.min.js"></script>
+    <script src="~/Scripts/jquery/jquery-confirm.min.js"></script>
+    <script src="~/Scripts/Internal/Phonebook.js"></script>
+}

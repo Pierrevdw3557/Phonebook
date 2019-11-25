@@ -1,0 +1,86 @@
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Phonebook Application.dll.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Phonebook Application.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Phonebook Application.pdb
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\csc.exe
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\csc.exe.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\csc.rsp
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\csi.exe
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\csi.exe.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\csi.rsp
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.AppContext.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Collections.Immutable.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Console.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.IO.Compression.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.IO.FileSystem.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.IO.Pipes.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Reflection.Metadata.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.AccessControl.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.Claims.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.ValueTuple.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Xml.XPath.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\vbc.exe
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\vbc.exe.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\vbc.rsp
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\VBCSCompiler.exe
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\roslyn\VBCSCompiler.exe.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Antlr3.Runtime.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\EntityFramework.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\EntityFramework.SqlServer.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Microsoft.Web.Infrastructure.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Newtonsoft.Json.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Helpers.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Mvc.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Optimization.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Razor.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.WebPages.Deployment.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.WebPages.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.WebPages.Razor.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\UnitOfWork.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\WebActivatorEx.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\WebGrease.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\DataContext.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\UnitOfWork.pdb
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\UnitOfWork.dll.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\EntityFramework.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\EntityFramework.SqlServer.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Helpers.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Mvc.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Optimization.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.Razor.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.WebPages.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.WebPages.Deployment.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\System.Web.WebPages.Razor.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Newtonsoft.Json.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Antlr3.Runtime.pdb
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\DataContext.pdb
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\bin\DataContext.dll.config
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csprojAssemblyReference.cache
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csproj.CopyComplete
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.dll
+C:\Personal Projects\Absa Assessment\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.pdb

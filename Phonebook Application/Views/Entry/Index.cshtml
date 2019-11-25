@@ -1,0 +1,94 @@
+﻿@model UnitOfWork._Models.PhoneBookModel
+@using Newtonsoft.Json;
+
+@{
+    ViewBag.Title = $"{Model.Name} - Entries";
+
+    var entries = Html.Raw(JsonConvert.SerializeObject((Model.Entries)));
+}
+
+<input type="hidden" class="phone_book_id" value="@Model.PhoneBookId" />
+<div class="row">
+    <h1>Phonebook: @Model.Name</h1>
+</div>
+<div class="ibox">
+    <div class="ibox-content">
+        <div class="clearfix">
+            <a href="#" class="add_new_entry pull-right"><i class="fa fa-plus-circle"> Add new entry </i></a>
+            <table class="table w100 entry_table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Contact Number</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Entries)
+                    {
+                        int index = Model.Entries.IndexOf(item);
+                        <tr>
+                            <td><span class="name" data-entryid="@item.EntryId">@item.Name</span></td>
+                            <td><span class="@($"number number-{index}")" data-index="@index" data-oldvalue="@item.PhoneNumber" data-entryid="@item.EntryId">@item.PhoneNumber</span></td>
+                            <td>
+                                <div class="pull-right">
+                                    <a href="#" class="delete_entry" title="Delete" data-entryid=@item.EntryId><i class="fa fa-trash-o"></i> Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <button class="btn btn-danger cancel">Back</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/Plugins/dataTables/datatables.min.js"></script>
+    <script src="~/Scripts/bootstrap-editable.min.js"></script>
+    <script src="~/Scripts/jquery/jquery-confirm.min.js"></script>
+    <script src="~/Scripts/Internal/Entry.js"></script>
+
+    <script>
+        $('.add_new_entry').click(function (e) {
+            $.get('/ShowEntry/NewEntry').done(function (data) {
+                $.confirm({
+                    title: 'New Entry',
+                    content: data,
+                    buttons: {
+                        cancel: {
+                            btnClass: 'btn btn-danger'
+                        },
+                        confirm: {
+                            btnClass: 'btn btn-primary',
+                            action: function () {
+                                 let telRegex = new RegExp('(([+][(]?[0-9]{1,3}[)]?)|([(]?[0-9]{4}[)]?))\s*[)]?[-\s\.]?[(]?[0-9]{1,3}[)]?([-\s\.]?[0-9]{3})([-\s\.]?[0-9]{3,4})')
+
+                                if (!telRegex.test($('.entry_number').val())) {
+                                    toastr.error('Please enter a valid phone number eg. +2781138145');
+                                    return false;
+                                }
+
+                                if (!$('#validateEntry').valid()) {
+                                    return false;
+                                }
+
+                                //Check if number exists
+                                if ($.grep(@entries, function (n, i) { return n.PhoneNumber != $('.entry_number').val() }, true).length) {
+                                    toastr.error('Phone number must be unique');
+
+                                    return false;
+                                }
+
+                                $.post('/CreateEntry/Create', { name: $('.entry_name').val(), phoneNumber: $('.entry_number').val(), phonebookId: $('.phone_book_id').val() }).done(function () {
+                                    window.location.reload();
+                                });
+                            }
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

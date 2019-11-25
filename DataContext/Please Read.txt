@@ -1,0 +1,21 @@
+﻿Please note the following when making changes to the DataContext Project:
+
+1. If you need to add an new table, you can do the following:
+	- Add a class in the Core --> Domain file with the name of your table and add all your columns.
+	- The final step is to go and add your DbSet<ClassName> to the OEDataContext.cs which can be found in the Core Folder. You ONLY need to do this if you need to reference the table by using (var context = new OEDataContext()) --> context.TableName.
+
+2. If you need to add a new SQL View or Stored Procedure, PLEASE follow the next steps:
+	- Add a new Migration and add your query withing the SQL() method.
+	
+Notes:
+ - Enable Migrations
+ -- Enable-Migrations
+
+ - Add-Migration Syntax
+ -- Add-Migration _NameHere_
+
+ - Update-Database Syntax
+ -- Update-Database -Verbose
+
+ - Revert Migration
+ -- Update-Database –TargetMigration: "<name of last good migration>"
